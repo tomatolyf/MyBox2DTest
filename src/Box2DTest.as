@@ -15,6 +15,7 @@ package
 		public function Box2DTest()
 		{
 			creatWorld();
+			creatBall();
 		}
 		
 		private function creatWorld():void
@@ -28,6 +29,11 @@ package
 			
 			//false时初始刚体不受重力影响，除非受力
 			_world.SetWarmStarting(true);
+		}
+		
+		private function creatBall():void
+		{
+			
 		}
 		
 	}
